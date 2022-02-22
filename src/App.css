@@ -1,0 +1,13 @@
+.page {
+  height: 100vh;
+  width: 100%;
+}
+.isloading {
+  position: relative;
+  height: 40px;
+  text-align: center;
+  font-family:'Courier New', monospace;
+  color: #2b6777;
+  font-size: 30px;
+  top: 15%;
+}

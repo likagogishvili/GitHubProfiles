@@ -1,0 +1,78 @@
+input {
+  width: 30%;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  padding-left: 10px;
+  background-color: #f2f2f2;
+  color: #2889a3;
+  font-family: Trebuchet MS;
+}
+.form {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+input:focus {
+  border: 1px solid #2b6777;
+  outline: none;
+}
+
+input::placeholder {
+  color: #0f4757;
+}
+h1 {
+  padding-top: 2%;
+  text-align: center;
+  font-family: Garamond;
+  color: #2889a3;
+}
+h1{
+  padding-top:2% ;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:#2889a3 ;
+
+}
+
+button {
+  height: 100%;
+  width: 10%;
+  background-color: #52ab98;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  color: #f2f2f2;
+  box-sizing: content-box;
+  margin-left: 10px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  button {
+    font-size: 13px;
+  }
+  .output > .name {
+    margin-top: 7%;
+    font-size: 20px;
+  }
+  .output > img {
+    height: 80px;
+  }
+  input::placeholder {
+    font-size: 15px;
+  }
+  input {
+    width: 70%;
+    height: 40px;
+    font-size: 15px;
+  }
+}
+
+
+
